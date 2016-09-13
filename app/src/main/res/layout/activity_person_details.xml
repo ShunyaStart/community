@@ -1,0 +1,104 @@
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#EC6305">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <TextView
+                android:id="@+id/tvPersonDetailName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                tools:text="Person Name"
+                android:textSize="20dp"
+                android:layout_row="0"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:text="नांव"
+                android:id="@+id/textView9"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="गाव"
+                android:id="@+id/textView10"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:textSize="30dp" />
+
+            <TextView
+            android:id="@+id/tvPersonDetailEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:text="Person Email"
+            android:textSize="20dp"
+                android:layout_row="1"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="फोन नंबर"
+                android:id="@+id/textView11"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textSize="30dp" />
+
+            <TextView
+            android:id="@+id/tvPersonDetailPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:text="Person Phone"
+            android:textSize="20dp"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="वय"
+                android:id="@+id/textView12"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="30dp" />
+
+            <TextView
+            android:id="@+id/tvPersonDetailAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:text="Person Age"
+            android:textSize="20dp"
+                android:layout_row="3"
+                android:layout_column="1" />
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:text="OK"
+            android:id="@+id/OKJAAGE"
+                android:background="#EC6305" />
+        </GridLayout>
+    </LinearLayout>

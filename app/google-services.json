@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "389329692863",
+    "firebase_url": "https://sqlite-5220c.firebaseio.com",
+    "project_id": "sqlite-5220c",
+    "storage_bucket": "sqlite-5220c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389329692863:android:11e19e2d70c9d419",
+        "android_client_info": {
+          "package_name": "com.simple.commtree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389329692863-0v03akm8sqaq1mmc1eem3303d0qj35s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simple.commtree",
+            "certificate_hash": "AA044876E7676211A7A43004DB9C790B598C313C"
+          }
+        },
+        {
+          "client_id": "389329692863-57cqh8ch2p24qr9untp78uiei72o1deg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1zHpVsctjyBCIInxJWEkDqAwxhASYphk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_dhrumil">Dhrumil</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabs">Tabs</string>
+
+    <string name="app_name">Comm Tree</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_name">Firebase Database</string>
+    <string name="title_activity_person_details">Details</string>
+    <string name="person_name_hint">आपले नांव लिहा</string>
+    <string name="person_email_hint">आपल्या गावात नाव</string>
+    <string name="person_phone_hint">आपला फोन नंबर</string>
+    <string name="person_age_hint">आपले वय</string>
+    <string name="person_id">ID : %1$s</string>
+    <string name="person_name">Name : %1$s</string>
+    <string name="person_email">Email : %1$s</string>
+    <string name="person_phone">Phone : %1$s</string>
+    <string name="person_age">Age : %1$s</string>
+    <string name="search_hint">Search student</string>
+</resources>
